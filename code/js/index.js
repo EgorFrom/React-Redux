@@ -6,6 +6,6 @@ import allReducers from './reducers';
 const store = createStore (allReducers);
 
 ReactDOM.render(
-  <h2>Здесь может быть любой текст</h2>, 
-  document.getElementById('fieldToShow')
+	"<h2>Здесь может быть любой текст<h2>", 
+	document.getElementById('fieldToShow')
 );
