@@ -1,5 +1,6 @@
 import React from 'react';
 import CarsList from '../containers/cars-list';
+
 const WebPage = () => (
 	<div>
 		<h2>Cars:</h2>

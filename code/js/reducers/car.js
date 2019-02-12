@@ -2,7 +2,7 @@ export default function () {
 	return [
 		{
 			id: 1,
-			car: "Audi",
+			name: "Audi",
 			speed: 234.45,
 			weight: 1.4,
 			desc: "R8 это замечательный спорткар!",
@@ -10,7 +10,7 @@ export default function () {
 		},
 		{
 			id: 2,
-			car: "BMW",
+			name: "BMW",
 			speed: 312.5,
 			weight: 1.2,
 			desc: "Автомобили с отметкой 'M' всегда были быстрее",
@@ -18,7 +18,7 @@ export default function () {
 		},
 		{
 			id: 3,
-			car: "Mercedes",
+			name: "Mercedes",
 			speed: 286.75,
 			weight: 1.35,
 			desc: "Комфорт премиум класса!",
