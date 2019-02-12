@@ -2,7 +2,7 @@ import React from 'react';
 
 const WebPage = () => (
 	<div>
-		<h3>Cars:</h3>
+		<h2>Cars:</h2>
 		<hr />
 		<h3>Details:</h3>
 	</div>

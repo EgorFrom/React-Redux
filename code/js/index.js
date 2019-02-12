@@ -10,6 +10,8 @@ import WebPage from './components/WebPage';
 const store = createStore (allReducers);
 
 ReactDOM.render(
-	<WebPage />, 
+	<Provider store={store}>
+		<WebPage />
+	</Provider>, 
 	document.getElementById('fieldToShow')
 );
